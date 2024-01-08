@@ -9,10 +9,10 @@ This program is made for educational purpose only. Authors are not liable for an
 ## Usage
 1. Clone the repo
 2. Run `npm i`
-3. Run `npm run start <...options>`
+3. Run `node index.js <...options>`
 
 A sample command could be:
-`npm run start -k re_AAAAAA_BBBBBBBBBBBB -f ./demo/emails.txt -sb "Can we do a meeting?" -s test@test.com -h ./demo/template.html`
+`node index.js -k re_AAAAAA_BBBBBBBBBBBB -f ./demo/emails.txt -sb "Can we do a meeting?" -s test@test.com -h ./demo/template.html`
 
 ## Options
 ```
